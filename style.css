@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    background-color: bisque;
+}
+
+
+h1 {
+    color: rgb(57, 57, 34);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-left: 50px;
+}
+.listForm {
+    display: flex;
+    flex-direction: column;
+  padding: 90px;
+    margin: 30px;
+    margin-top: 0;
+    margin-left: -220px;
+}
+
+input {
+    margin-bottom: 8px;
+    padding: 5px;
+    background-color: aqua;
+}
+
+.submitBtn {
+    margin-bottom: 8px;
+    padding: 5px;
+    background-color: aqua;
+
+}
+
+.buttonCross {
+    position: absolute;
+    margin-bottom: 8px;
+    padding: 5px;
+    
+    background-color: aquamarine;
+    top: 180px;
+    right: 1145px;
+}
